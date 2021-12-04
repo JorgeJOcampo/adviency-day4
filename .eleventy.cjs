@@ -10,8 +10,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('node_modules/lit/polyfill-support.js');
   return {
     dir: {
-      input: 'docs-src',
-      output: 'docs',
+      input: 'dist',
+      output: 'src',
     },
     templateExtensionAliases: {
       '11ty.cjs': '11ty.js',
